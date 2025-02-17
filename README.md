@@ -50,8 +50,7 @@ The project depends on acados for solving MPC and MHE. Follow these steps to ins
 ```
 
 
-### **3. Running the Simulation **
-
+### 3. Running the Simulation 
 ```bash
 # python3 main.py
 ```
