@@ -39,7 +39,7 @@ water-cleaning-USV/
 
 ### **2. Install and Setup acados**
 
-<!-- The project depends on acados for solving MPC and MHE. Follow these steps to install acados: -->
+The project depends on acados for solving MPC and MHE. Follow these steps to install acados:
 ```bash
 # cd acados
 # git submodule update --init --recursive
@@ -49,14 +49,9 @@ water-cleaning-USV/
 # make install
 ```
 
-<!-- After installation, update your environment variables: -->
-```bash
-# export ACADOS_SOURCE_DIR=$(pwd)
-# export LD_LIBRARY_PATH=$ACADOS_SOURCE_DIR/lib:$LD_LIBRARY_PATH
-```
 
-<!-- Running the Simulation -->
+### **3. Running the Simulation **
+
 ```bash
 # python3 main.py
-```
 ```
